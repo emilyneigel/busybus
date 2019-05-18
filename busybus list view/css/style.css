@@ -1,0 +1,92 @@
+
+* { Box-sizing: Border-box }
+body {
+  background-color: #FAFAFA;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #4A4A4A;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+.sectionheader {
+  font-size: 12px;
+  width: 98%;
+  margin: 0 auto;
+}
+.route {
+  background-color: white;
+  width: 98%;
+  border-radius: 4px;
+  /* height: 70px; */
+  padding: 24px 8px;
+  margin: 10px auto;
+}
+.lineNumber {
+  font-size: 24px;
+}
+
+.route li, .sectionheader li {
+  width: 32%;
+  display: inline-block;
+}
+
+nav{
+  padding: 8px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* Phones */
+
+
+
+
+/* End phones */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets */
+@media screen and (min-width : 575px){
+
+
+
+
+}/* End tablet */
+
+
+
+
+
+
+
+
+
+
+
+/* Laptop */
+@media screen
+and (min-width : 991px) {
+
+
+
+
+}/* End laptop */
