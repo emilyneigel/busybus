@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="44px" viewBox="0 0 363 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="357" height="38" rx="10"></rect>
+        <filter x="-1.5%" y="-19.7%" width="103.1%" height="128.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Find-a-bus-stop-near-me-Copy" transform="translate(-6.000000, -30.000000)">
+            <g id="Group-8" transform="translate(9.000000, 35.000000)">
+                <g id="Background-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.8" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Icon" transform="translate(7.666667, 8.769231)" fill="#AFAFAF">
+                    <path d="M7.65811885,15.13846 C11.8875811,15.13846 15.3162377,11.7496003 15.3162377,7.56922999 C15.3162377,3.3888597 11.8875811,0 7.65811885,0 C3.4286566,0 0,3.3888597 0,7.56922999 C0,11.7496003 3.4286566,15.13846 7.65811885,15.13846 L7.65811885,15.13846 Z M7.65811885,13.2461525 C4.48602216,13.2461525 1.91452971,10.7045077 1.91452971,7.56922999 C1.91452971,4.43395227 4.48602216,1.8923075 7.65811885,1.8923075 C10.8302155,1.8923075 13.401708,4.43395227 13.401708,7.56922999 C13.401708,10.7045077 10.8302155,13.2461525 7.65811885,13.2461525 L7.65811885,13.2461525 Z" id="Search-Icon" fill-rule="nonzero"></path>
+                    <path d="M17.0153512,18.6285507 C17.3794625,19.007414 17.9853692,19.0227989 18.3686816,18.6629139 C18.7519941,18.3030289 18.7675597,17.7041551 18.4034485,17.3252918 L13.1384918,11.8470246 C12.7743805,11.4681613 12.1684738,11.4527763 11.7851613,11.8126613 C11.4018488,12.1725463 11.3862832,12.7714202 11.7503945,13.1502835 L17.0153512,18.6285507 Z" id="Path-511"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
