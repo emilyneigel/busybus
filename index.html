@@ -5,24 +5,22 @@
     <meta charset="utf-8">
     <title>bus app</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
+<div class="mapPin"></div>
 
 <div class="routeList">
-  <div class="grabber"></div>
     <nav>
-      <a href="#">
-        <img src="images/back.svg" />
-      </a>
       <h1>Washington & State</h1>
       <a href="#">
         <img src="images/close.svg" />
       </a>
     </nav>
 
-  <div class="routegroup">
+  <section class="routegroup">
     <!-- This is the route header that goes on top of individual routes -->
     <h2>Eastbound</h2>
 
@@ -37,7 +35,7 @@
         Randolph/Harbor Dr
       </li>
       <li class="frequency">
-        Every 20 minutes
+          20 minutes
       </li>
     </ul>
 
@@ -49,12 +47,12 @@
         Navy Pier
       </li>
       <li class="frequency">
-        Every 10 minutes
+          10 minutes
       </li>
     </ul>
-  </div>
+  </section>
 
-  <div class="routegroup">
+  <section class="routegroup">
     <!-- This is the route header that goes on top of individual routes -->
     <h2>Northbound</h2>
 
@@ -69,12 +67,12 @@
         Devon/Clark
       </li>
       <li class="frequency">
-        Every 16 minutes
+          16 minutes
       </li>
     </ul>
-  </div>
+  </section>
 
-  <div class="routegroup">
+  <section class="routegroup">
     <h2>Southbound</h2>
 
 
@@ -88,7 +86,7 @@
         103rd/Stony Island
       </li>
       <li class="frequency">
-        Every 15 minutes
+          15 minutes
       </li>
     </ul>
 
@@ -100,12 +98,12 @@
         Navy Pier
       </li>
       <li class="frequency">
-        Every 10 minutes
+          10 minutes
       </li>
     </ul>
-    </div>
+  </section>
 
-    <div class="routegroup">
+    <section class="routegroup">
     <h2>Reroute</h2>
 
 
@@ -122,9 +120,9 @@
         N/A
       </li>
     </ul>
-  </div>
+  </section>
 
-  <div class="routegroup">
+  <section class="routegroup">
     <h2>Out of service</h2>
 
 
@@ -165,9 +163,17 @@
       </li>
     </ul>
   </div>
-</div>
+</section>
 
 <div class="statusBar"></div>
-<div class="searchBar"></div>
+<div class="searchBar">
+  <form action="#">
+    <input type="text" name="searchbar" placeholder="Search for a route">
+  </form>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
   </body>
 </html>

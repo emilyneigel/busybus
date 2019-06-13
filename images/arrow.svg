@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Find-a-bus-stop-near-me" transform="translate(-351.000000, -509.000000)" fill="#AFAFAF">
+            <g id="Graphics-/-Navbar-&amp;-Toolbar-Icons-/-Blue-/-Arrow-Right-Copy-3" transform="translate(351.000000, 509.000000)">
+                <path d="M0.00192040601,5.50915871 L0,5.51114318 L0.666766512,6.19988343 L0.668579041,6.19801044 L5.31586042,11 L5.98023064,10.3133968 L1.3331125,5.51130902 L6,0.688740251 L5.33323349,-3.55271368e-15 L0.666472389,4.82243815 L0.664370226,4.82026588 L1.42108547e-14,5.50717438 L0.00192040601,5.50915871 Z" id="Arrow" transform="translate(3.000000, 5.500000) scale(-1, 1) translate(-3.000000, -5.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

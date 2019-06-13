@@ -3,10 +3,11 @@
 body {
   background-color: #FAFAFA;
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: "Open-sans", sans-serif;
   color: #000;
   background: url('../images/map.png') top center no-repeat;
   background-size: cover;
+  height: 100vh;
 
 }
 h1 {
@@ -25,13 +26,21 @@ h2{
   position: absolute;
   bottom: 0;
   left: 0;
+  top: 72px;
   right: 0;
-  border-radius: 10px 10px 0px 0px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
   box-shadow: 0 -2px 3px rgba(0,0,0,.05);
+  overflow-y: scroll;
+  visibility: hidden;
+}
+.showlist{
+  visibility: visible;
 }
 .routegroup{
-  border-bottom: 1px solid #AFAFAF;
-  padding: 10px 8px;
+  border-bottom: 1px solid rgba(0,0,0,.05);
+  padding: 20px 8px 10px;
 }
 .sectionheader {
   font-size: 12px;
@@ -41,7 +50,19 @@ h2{
 .route {
   width: 98%;
   /* height: 70px; */
-  padding: 2px 0;
+  padding: 16px 0;
+  position: relative;
+}
+
+.route::before{
+  content: '';
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: url('../images/arrow.svg') center center no-repeat;
+  position: absolute;
+  right: -16px;
+  top: 14px;
 }
 
 
@@ -65,15 +86,11 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 16px;
+  padding:  10px;
+
+
 }
-.grabber{
-  background: url('../images/grabber.svg') center center no-repeat;
-  width: 10%;
-  height: 10px;
-  margin: 0 auto;
-  padding: 10px 0;
-}
+
 .statusBar{
   background: url('../images/statusbar.png') center center no-repeat;
   width: 100%;
@@ -86,14 +103,46 @@ nav{
 }
 
 .searchBar{
-  background: url('../images/searchbar.svg') center center no-repeat;
-  width: calc(100% - 20px;);
-  background-size: contain;
-  height: 86px;
+  position: fixed;
+  top:12px;
+  left:0;
+  width: 100%;
+
+  display: block;
+}
+
+.searchBar form input{
+  width: calc(100% - 20px);
+  padding: 10px 10px 10px 40px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0 -2px 3px rgba(0,0,0,.05);
+}
+
+.searchBar::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../images/search.svg') center center no-repeat;
   position: absolute;
-  top: 36px;
-  left: 0;
-  right: 0;
+  top:18px;
+  left:18px;
+  z-index: 999;
+}
+
+.mapPin{
+  position: absolute;
+  width: 45px;
+  height: 66px;
+  top: 50%;
+  left: 50%;
+  margin-left: -22px;
+  margin-top: -33px;
+  background: url('../images/mappin.svg') center center no-repeat;
 }
 /* Phones */
 
